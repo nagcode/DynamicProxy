@@ -9,8 +9,8 @@ Follow these steps to get this running:
 Test:     
      [java] Executing method = [method1], args = [[test1, test2]]    
      [java] Executed method = [method1], Output = [test1test2method1]     
-     [java] Executing method = [method1], args = [[test3, test4]]    
-     [java] Executed method = [method1], Output = [test3test4method1]    
+     [java] Executing method = [method2], args = [[test3, test4]]    
+     [java] Executed method = [method2], Output = [test3test4method1]    
     
 5) These are all coming from the invoke method in Proxy class.    
 6) You can modify the invoke method in Proxy class to do more than just logging the inputs and outputs.    
